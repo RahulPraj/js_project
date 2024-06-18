@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+   font-family: 'Lora', serif;;
+    background-color: #f4f4f4;
+    
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FFC017;
+    border-bottom: 1px solid #242424;
+    padding: 10px;
+  }
+  div{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .card {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 350px;
+    margin: 50px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    /* float: left; */
+    
+  }
+  .card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+  .article {
+    max-width: 800px;
+    height: 350px;
+    /* margin: 20px auto; */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+ 
+  .article p{
+    margin: 10px auto;
+  }
+
+  /* Custom menu styles */
+  .custom-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-menu button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-menu button:hover {
+    background-color: #0056b3;
+  }
